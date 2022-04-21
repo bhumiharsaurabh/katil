@@ -70,7 +70,7 @@ while True:
             clr()
             print(f'\n{gr} [*] Logging in from new accounts\n')
             for number in new_accs:
-                c = TelegramClient(f'sessions/{number}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+                c = TelegramClient(f'sessions/{number}', '7050385' , '2163d69fcc3ff8612f9978eea5eedb35')
                 c.start(number)
                 print(f'{ye}[+] 𝐋𝐨𝐠𝐢𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮L')
                 c.disconnect()
@@ -93,7 +93,7 @@ while True:
         else:
             for account in accounts:
                 phone = str(account[0])
-                client = TelegramClient(f'sessions/{phone}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+                client = TelegramClient(f'sessions/{phone}', '7050385' , '2163d69fcc3ff8612f9978eea5eedb35')
                 client.connect()
                 if not client.is_user_authorized():
                     try:
@@ -175,7 +175,7 @@ while True:
                 print(f'{lg}[!] Update aborted.')
                 input('Press enter to goto main menu...')
         else:
-            print(f'{lg}[i] Your Astra is already up to date')
+            print(f'{lg}[i] Your Katil is already up to date')
             input('Press enter to goto main menu...')
     elif a == 5:
         clr()
