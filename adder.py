@@ -1,7 +1,7 @@
 '''
 =============KING OF TELEGRAM=====================
 KATIL 1.0 members adding script
-Coded by KATIL - @TERA_BAAP_KATIL
+Coded by REX - @TERA_BAAP_KATIL
 Apologies if anything in the code is dumb :)
 Copy with credits
 ************************************************
@@ -44,7 +44,7 @@ minus = w + '[' + lg + '-' + w + ']' + rs
 
 def banner():
     # fancy logo
-    b = [   
+    b = [
   ' ██╗░░██╗░█████╗░████████╗██╗██╗░░░░░ ',
   ' ██║░██╔╝██╔══██╗╚══██╔══╝██║██║░░░░░ ',
   ' █████═╝░███████║░░░██║░░░██║██║░░░░░ ',
@@ -54,7 +54,7 @@ def banner():
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{rs}')
-    #print('Katil support- https://t.me/full_masti_clubs')
+    #print('=============KING OF TELEGRAM==============')
     print(f'{lg}   Version: {w}1.0{lg} | Author: {w}KATIL{rs}\n')
 
 
@@ -79,7 +79,7 @@ print('\n' + info + lg + ' Checking for banned accounts...' + rs)
 for a in accounts:
     phn = a[0]
     print(f'{plus}{grey} Checking {lg}{phn}')
-    clnt = TelegramClient(f'sessions/{phn}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+    clnt = TelegramClient(f'sessions/{phn}', 8088717, '7d1e0295ee1c2628f1933e9ffd2d8b78')
     clnt.connect()
     banned = []
     if not clnt.is_user_authorized():
@@ -208,7 +208,7 @@ for acc in to_use:
     #c.get_dialogs()
     try:
         members = []
-        members = c.get_participants(scraped_grp_entity, limit = 20000)
+        members = c.get_participants(scraped_grp_entity, limit = 5500)
     except Exception as e:
         print(f'{error}{r} Couldn\'t scrape members')
         print(f'{error}{r} {e}')
