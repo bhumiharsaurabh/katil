@@ -2,7 +2,7 @@
 
 for issues, Contact me at Telegram - @TERA_BAAP_KATIL
 
-first you need to store accounts for scraping and adding purposes in rexmanager.py
+first you need to store accounts for scraping and adding purposes in manager.py
 So launch in terminal
 
 > python manager.py
