@@ -25,19 +25,19 @@ def banner():
     import random
     # fancy logo
     b = [
-        
-        
-  ' ██╗░░██╗░█████╗░████████╗██╗██╗░░░░░ ',
-  ' ██║░██╔╝██╔══██╗╚══██╔══╝██║██║░░░░░ ',
-  ' █████═╝░███████║░░░██║░░░██║██║░░░░░ ',
-  ' ██╔═██╗░██╔══██║░░░██║░░░██║██║░░░░░ ',
-  ' ██║░╚██╗██║░░██║░░░██║░░░██║███████╗ ',
-  ' ╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝╚══════╝ ',
+    
+
+   ' ██╗░░██╗░█████╗░████████╗██╗██╗░░░░░ ',
+   ' ██║░██╔╝██╔══██╗╚══██╔══╝██║██║░░░░░ ',
+   ' █████═╝░███████║░░░██║░░░██║██║░░░░░ ',
+   ' ██╔═██╗░██╔══██║░░░██║░░░██║██║░░░░░ ',
+   ' ██║░╚██╗██║░░██║░░░██║░░░██║███████╗ ',
+   ' ╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝╚══════╝ ',
     
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
-    #print('katil support- https://t.me/full_masti_clubs')
+    #print('=============KING OF TELEGRAM==============')
     print(f'   Version: 1.0 | Author: KATIL{n}\n')
 
 def clr():
@@ -52,7 +52,7 @@ while True:
     print(lg+'[1] Add New Accounts'+n)
     print(lg+'[2] Filter All Banned Accounts'+n)
     print(lg+'[3] Delete specific accounts'+n)
-    print(lg+'[4] Update your Software'+n)
+    print(lg+'[4] Update your Script'+n)
     print(lg+'[5] Exit'+n)
     a = int(input('\nEnter Your Choice: '))
     if a == 1:
@@ -144,7 +144,7 @@ while True:
         input(f'\nPress enter to goto main menu...')
         f.close()
     elif a == 4:
-        # thanks to github.com/bhumiharsaurabh for the snippet below
+        # thanks to github.com/bhumiharsaurabh/katil for the snippet below
         print(f'\n{lg}[i] Checking for updates...')
         try:
             # https://raw.githubusercontent.com/bhumiharsaurabh/katil/main/version.txt
@@ -173,7 +173,7 @@ while True:
                 print(f'{lg}[!] Update aborted.')
                 input('Press enter to goto main menu...')
         else:
-            print(f'{lg}[i] Your Katil is already up to date')
+            print(f'{lg}[i] Your Astra is already up to date')
             input('Press enter to goto main menu...')
     elif a == 5:
         clr()
